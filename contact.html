@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <!-- css  -->
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="contact.css">
+    <!-- icon link -->
+    <link rel="icon" href="./images/contact-icon.png">
+    <!-- fonts  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <!-- fontawesome  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+
+<body>
+    <!-- sidebar  -->
+    <div class="sidebar">
+        <i class="fa-solid fa-xmark sideclose"></i>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="index.html#arrivals">New Arrival</a></li>
+            <li><a href="index.html#wanted">Most Wanted</a></li>
+            <li><a href="collections.html">Collections</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+    </div>
+    <!-- Navbar  -->
+    <div class="navbar">
+        <h1>
+            <a href="index.html" style="text-decoration: none;">Nostra</a>
+        </h1>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="index.html#arrivals">New Arrival</a></li>
+            <li><a href="index.html#wanted">Most Wanted</a></li>
+            <li><a href="collections.html">Collections</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+        <div class="toggle">
+            <i class="fa-solid fa-bars"></i>
+        </div>
+    </div>
+    <!-- Contact  -->
+    <div class="contact">
+        <div class="contact__div">
+            <h2>Contact Us</h2>
+            <label for="namee">Name:</label>
+            <input type="text" id="namee" placeholder="Enter Name">
+            <p id="nameerror"></p>
+            <label for="email">Email:</label>
+            <input type="text" id="email" placeholder="Enter Email">
+            <p id="emailerror"></p>
+            <label for="message">Message:</label>
+            <textarea id="message"></textarea>
+            <p id="messageerror"></p>
+            <button type="button" id="btn">Submit</button>
+        </div>
+        <div class="contact__popup">
+            <div class="popup__box">
+                <p>Form Submitted Successfully</p>
+            </div>
+        </div>
+    </div>
+    <!-- newsletter  -->
+    <div class="newsletter">
+        <h2>Join our News Letter</h2>
+        <h3>Signup for our email newspaper to get exclusive discounts, updates, and more</h3>
+        <input type="text">
+        <a href="javascript:void(0)">Subscribe<i class="fa-solid fa-arrow-right"></i></a>
+    </div>
+    <!-- footer  -->
+    <div class="footer">
+        <h2>Nostra</h2>
+        <h3>The Standard chunk of Lorem ipsum used since the 1500s is reprodused below for those interest</h3>
+        <ul>
+            <li><a href="javascript:void(0)"><i class="fa-brands fa-instagram"></i></a></li>
+            <li><a href="javascript:void(0)"><i class="fa-brands fa-x-twitter"></i></a></li>
+            <li><a href="javascript:void(0)"><i class="fa-brands fa-facebook"></i></a></li>
+        </ul>
+        <h4>@ 2023 Nostra.com</h4>
+    </div>
+
+    <!-- external script  -->
+    <script src="contact.js"></script>
+</body>
+
+</html>

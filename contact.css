@@ -1,0 +1,119 @@
+.contact {
+    padding: 50px 20px;
+    position: relative;
+}
+
+.contact .contact__div {
+    width: 80%;
+    background-color: #1D232C;
+    color: #FFFFFF;
+    margin: 0px auto;
+    padding: 50px 80px;
+}
+
+.contact .contact__div input {
+    width: 100%;
+    display: block;
+    height: 60px;
+    padding: 0px 10px;
+    border-radius: 5px;
+    outline: none;
+    font-family: "Poppins", sans-serif;
+}
+
+.contact .contact__div textarea {
+    width: 100%;
+    display: block;
+    height: 90px;
+    padding: 10px;
+    border-radius: 5px;
+    outline: none;
+    font-family: "Poppins", sans-serif;
+}
+
+.contact .contact__div label {
+    padding: 10px 0px;
+    display: inline-block;
+}
+
+.contact .contact__div input::placeholder {
+    font-family: "Poppins", sans-serif;
+}
+
+.contact button {
+    background-color: #0056B3;
+    color: #FFFFFF;
+    border: solid 2px #0056B3;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.contact button:hover {
+    background-color: transparent;
+}
+
+.contact p {
+    padding: 10px 0px;
+}
+
+.contact .contact__popup {
+    position: absolute;
+    top: 20%;
+    left: 0px;
+    right: 0px;
+    margin: auto;
+    width: max-content;
+    height: max-content;
+    background-color: green;
+    color: white;
+    padding: 20px 15px;
+    display: none;
+}
+
+@media(max-width:600px) {
+    .contact .contact__div {
+        width: 90%;
+        background-color: #1D232C;
+        color: #FFFFFF;
+        margin: 0px auto;
+        padding: 50px 80px;
+    }
+
+    .contact .contact__div {
+        width: 90%;
+        background-color: #1D232C;
+        color: #FFFFFF;
+        margin: 0px auto;
+        padding: 50px;
+    }
+}
+
+@media(max-width:500px) {
+    .contact .contact__div input {
+        width: 100%;
+        display: block;
+        height: 40px;
+        padding: 0px 10px;
+        border-radius: 5px;
+        outline: none;
+        font-family: "Poppins", sans-serif;
+    }
+
+    .contact .contact__div {
+        width: 90%;
+        background-color: #1D232C;
+        color: #FFFFFF;
+        margin: 0px auto;
+        padding: 30px;
+    }
+
+    .contact .contact__div {
+        width: 100%;
+        background-color: #1D232C;
+        color: #FFFFFF;
+        margin: 0px auto;
+        padding: 30px;
+    }
+}
